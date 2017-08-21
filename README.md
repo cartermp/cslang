@@ -1,11 +1,14 @@
 C# is similar Java, but probably better (unless you're insane), and is generally seen as "good enough" to prevent true F# adoption.
 
+Featuring:
+
 * Curly brances
 * Semicolons
 * LINQY
 * Asyncy (and soon to be in yer main)
 * The dev lead is a powershell master
-* F# is for math and science lol
+* Lets you `break` inside of `case` statements
+* It's pronounced "tor-guhr-sen"
 
 ## [Download it here](https://www.microsoft.com/net/core)
 
@@ -13,19 +16,23 @@ C# is similar Java, but probably better (unless you're insane), and is generally
 public static string BooleanToString(bool value)
 {
     string ret = null
-    if (value == true)
+    if (true == value)
     {
          ret =  "True";
     }
-    else
+    else if (false == value)
     {
          ret =  "False";
+    }
+    else
+    {
+        ret = String.Empty;
     }
     
     return ret;
 }
 ```
 
-You can have your wacky ideas about how C# needs typeclasses to survive denied in the [C# Language Design repository.](https://github.com/dotnet/csharplang).
+You can have your wacky ideas about how C# needs typeclasses to survive denied in the [C# Language Design repository.](https://github.com/dotnet/csharplang)
 
-C# is also developed alongside its more sensible partner, Visual Basic .NET, in the [Roslyn repository](https://github.com/dotnet/roslyn).  Llamas will be seen there.
+C# is also developed alongside its more seasoned partner, Visual Basic .NET, in the [Roslyn repository.](https://github.com/dotnet/roslyn)  Llamas have been seen roaming there.
