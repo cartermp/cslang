@@ -7,7 +7,7 @@ C# is similar Java, but probably better (unless you're insane), and is generally
 * The dev lead is a powershell master
 * F# is for math and science lol
 
-[## Download it here](https://www.microsoft.com/net/core)
+## [Download it here](https://www.microsoft.com/net/core)
 
 ```csharp
 public static string BooleanToString(bool value)
