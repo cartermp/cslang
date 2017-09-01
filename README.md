@@ -16,11 +16,11 @@ Featuring:
 public static string BooleanToString(bool value)
 {
     string ret = null
-    if (true == value)
+    if (value == true)
     {
          ret =  "True";
     }
-    else if (false == value)
+    else if (value = false)
     {
          ret =  "False";
     }
