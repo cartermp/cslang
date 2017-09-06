@@ -15,7 +15,9 @@ Featuring:
 ```csharp
 public static string BooleanToString(bool value)
 {
-    lock ("") 
+    lock (string.Empty)
+    
+    Console.Write("", null, null, null, async {});
     
     string ret = null
     if (true == value)
