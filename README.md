@@ -28,7 +28,7 @@ public static string BooleanToString(bool value)
     {
          ret =  "False";
     }
-    else
+    else // We can't always trust the runtime to give back the right bool, hence this case.
     {
         ret = String.Empty;
     }
